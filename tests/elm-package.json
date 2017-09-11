@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "summary": "Many-to-Many relation using a pair of Dicts",
+    "repository": "https://github.com/brainrape/elm-bidict.git",
+    "license": "BSD3",
+    "source-directories": [
+        "../src/",
+        "."
+    ],
+    "exposed-modules": [
+        "BiDict",
+        "SetDict",
+        "EveryBiDict",
+        "EverySetDict"
+    ],
+    "dependencies": {
+        "eeue56/elm-all-dict": "2.0.1 <= v < 3.0.0",
+        "elm-community/elm-test": "4.2.0 <= v < 5.0.0",
+        "elm-community/html-test-runner": "1.0.6 <= v < 2.0.0",
+        "elm-lang/core": "5.0.0 <= v < 6.0.0"
+    },
+    "elm-version": "0.18.0 <= v < 0.19.0"
+}
